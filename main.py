@@ -14,7 +14,7 @@ x, y = make_classification(n_samples=100, n_features=3,
                            n_informative=3, n_redundant=0, n_classes=2)
 
 np.random.seed(1)
-
+# feedforward
 w1 = 2*np.random.random((3, 1)) - 1
 w2 = 2*np.random.random((1, 100)) - 1
 
